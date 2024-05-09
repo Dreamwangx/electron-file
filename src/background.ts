@@ -16,6 +16,6 @@ app.whenReady().then(() => {
     //开发环境
     win.loadURL(process.argv[2])
   } else {
-    win.loadURL('./index.html')
+    win.loadFile('index.html')
   }
 })
